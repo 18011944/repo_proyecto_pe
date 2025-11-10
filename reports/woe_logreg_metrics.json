@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-10T15:28:56",
+  "n_features": 120,
+  "auc_roc": 0.8321361120156301,
+  "pr_auc": 0.3749102352900235,
+  "gini": 0.6642722240312602,
+  "ks": 0.5232985998046239,
+  "ks_threshold": 0.5514528368340634,
+  "lift_top10": 5.575521235521236,
+  "pos_rate_train": 0.05271417362151366,
+  "pos_rate_test": 0.052781740370898715,
+  "confusion_test": {
+    "threshold": 0.5514528368340634,
+    "TP": 123,
+    "FP": 470,
+    "TN": 2850,
+    "FN": 62
+  },
+  "paths": {
+    "roc": "C:\\Users\\PC RYU\\Documents\\Galileo\\Maestria\\Product Development\\repo_proyecto_pe\\reports\\figures\\roc_woe_logreg.png",
+    "pr": "C:\\Users\\PC RYU\\Documents\\Galileo\\Maestria\\Product Development\\repo_proyecto_pe\\reports\\figures\\pr_woe_logreg.png",
+    "ks": "C:\\Users\\PC RYU\\Documents\\Galileo\\Maestria\\Product Development\\repo_proyecto_pe\\reports\\figures\\ks_woe_logreg.png",
+    "model": "C:\\Users\\PC RYU\\Documents\\Galileo\\Maestria\\Product Development\\repo_proyecto_pe\\models\\woe_logistic_regression.pkl"
+  }
+}

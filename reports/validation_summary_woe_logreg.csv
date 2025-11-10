@@ -1,0 +1,2 @@
+Modelo,Features,AUC ROC,AUC PR,Gini,KS,Precision,Recall,F1,Aprobación,Threshold,Scores file,Thresholds file,KS Curve,ROC Curve,PR Curve,Lift Deciles,KS Deciles
+woe_logistic_regression.pkl,120,0.8321361120156301,0.3749102352900235,0.6642722240312602,0.5232985998046239,0.4034334763948498,0.5081081081081081,0.44976076555023925,0.06647646219686162,0.7907863574732759,scores_test_woe_logreg.csv,thresholds_summary_woe_logreg.csv,ks_woe_logreg.png,roc_woe_logreg.png,pr_woe_logreg.png,lift_by_decile_woe_logreg.png,ks_by_decile_woe_logreg.png

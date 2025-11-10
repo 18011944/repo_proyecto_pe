@@ -1,0 +1,548 @@
+2025-11-03 19:44:03 | INFO | agrupacion_auto | === Notebook 01: Agrupación Automática (Binning / IV) ===
+2025-11-03 19:44:03 | INFO | agrupacion_auto | BASE_DIR=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe
+2025-11-03 19:48:38 | INFO | agrupacion_auto | === Notebook 01: Agrupación Automática (Binning / IV) ===
+2025-11-03 19:48:38 | INFO | agrupacion_auto | BASE_DIR=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe
+2025-11-03 19:48:38 | INFO | agrupacion_auto | INTERIM=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\data\interim | REFERENCES=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references | REPORTS_IV=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv | LOG_DIR=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\data\interim\logs
+2025-11-03 19:52:25 | INFO | agrupacion_auto | Cargado abt_PE2020_clean_min.csv | shape=(17524, 438) | memoria≈71.96 MB
+2025-11-03 19:52:25 | INFO | agrupacion_auto | TARGET=default_12m | distrib={0:16600, 1:924} | ratio_positivos=0.052728
+2025-11-03 19:52:25 | INFO | agrupacion_auto | Vars numéricas: 422 | categóricas: 2 | cat_alta_card: 3
+2025-11-03 19:55:10 | ERROR | agrupacion_auto | Faltan carpetas destino. Crea manualmente:
+  C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv
+  C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references
+2025-11-03 19:57:49 | INFO | agrupacion_auto | === Notebook 01: Agrupación Automática (Binning / IV) ===
+2025-11-03 19:57:49 | INFO | agrupacion_auto | BASE_DIR=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe
+2025-11-03 19:57:49 | INFO | agrupacion_auto | INTERIM=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\data\interim | REFERENCES=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references | REPORTS_IV=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv | LOG_DIR=C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\data\interim\logs
+2025-11-03 19:57:56 | ERROR | agrupacion_auto | Faltan carpetas destino. Crea manualmente:
+  C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv
+  C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references
+2025-11-03 19:58:38 | INFO | agrupacion_auto | Iniciando binning numérico: 422 variables…
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en 0: '0'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en num_contratos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en indiemppromoflag: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en indiempvincuflag: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_codrpo_cuencorr: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_codpro_docdes: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_codpro_finanexp: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_codpro_finanimp: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_codpro_intauto: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_codpro_intcasa: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_codpro_intconsu: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en dias_atraso: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en ead_cont_nov_refina: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_vencido: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_exceso: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_tarjeta_virt: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en impgaraoperaforma: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en impgaraoperarefe: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en impcontnovarefi: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en impor_novado_refina: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en limite: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en limmxcont_v: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en limmedcont_v: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en limmedcont_e: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en limmincont_v: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en limmincont_e: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en mxdiasatramescapi: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en mxdiasatramesinte: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:38 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_capital: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saldispopera: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en siniincicap_v: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saliniinciint_v: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_intereses: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en salmxincicap_v: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en salmxinciint_v: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en salmedincicap_v: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en salmedinciint_v: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en salvencapital: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en salvenintereses: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_sitcont_cance: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_sitcont_default: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_sitcont_incump: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_sitcont_normal: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en tasa_operacion: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en tipcarepergra_flag: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en total_saldo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en clasi_act_empre: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en antiguedad_empresa: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en numgruposecono: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | INFO | agrupacion_auto | Progreso numéricas: 50/422 procesadas
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en indi_nominas_domici: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en num_nominas_domici: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en num_recibos_domici: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en ocupacion_repre: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en sactidebefinmes: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en sactidebepromedio: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en sactihabefinmes: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vencido: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en salpashabefinmes: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en salpasdebefinmes: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en spasivohabe_prom: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en salpasdebeprom: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en salinvpromediode: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en indiclieconnomi: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en importe_de_nomina: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en total_deuda: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en tot_atrasado_cap: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en tot_atrasado_int: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en max_meses_atraso_cap: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en max_meses_atraso_int: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en costototalventas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en utilidad_bruta: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en ebitda: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en ebit: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_pasivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_activo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_neto: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_haber: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en patrimonio_neto: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en utilidad_neta: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en grupo_economico_cat: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en pais_cat: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en tipo_vincu_enti_cat: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en departamento_cat: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en clasi_geo_cat: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en total_ventas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en gastos_admin: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en pasivo_circ: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en activo_circ: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en activo_no_circ: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en activos_fijos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en pasivo_no_circ: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en otros_pasivos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en activo_total: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en pasivo_total: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en pasivo_lp: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en gastos_fin: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en productos_fin: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en impuestos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_operativo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | INFO | agrupacion_auto | Progreso numéricas: 100/422 procesadas
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en roa: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en roa2: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en productividad: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_neto: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_bruto: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_ebit: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rot_cap_trabajo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rot_activos_totales: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rot_activos_fijos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en cobertura_intereses: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en cob_int_fin: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en cobertura_deuda: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en cobertura_deuda_tot: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasivolp_ebit: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasivototal_ebit: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasivot_utneta: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_solvencia: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_liquidez: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pas_patrinet: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rent_patrimonio: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rent_activos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en captrab_ventas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en gasto_fin_ventas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en ut_bruta_pasivolp: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_actcir_ncirc: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en tasa_impuestos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pastot_utnet: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ebit_activos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ebit_pasivos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ebit_sact: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ebit_spas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasivo_activo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_ebitda: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasivolp_ebitda: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasivot_ebitda: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ebitda_activos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ebitda_pasivos: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_accirc_actotal: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_acnocirc_actotal: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pascirc_pastotal: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasnocirc_pastot: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_activos_sactivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasivos_sactivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasivos_spasivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_uneta_sactivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_uneta_spasivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_sactivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_spasivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en inversionespromedio: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sal_tpas_ventas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | INFO | agrupacion_auto | Progreso numéricas: 150/422 procesadas
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sal_net_ventas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_tact: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_limite: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sal_tpas_limi: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_tot_sal: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spasivo_sneto: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spasivo_sactivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_prompas_sact: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en antiguedad_pasivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en antiguedad_activo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_pasivo: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en dur_canreal: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en tasaoperacion_pond: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_invpromedio: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_dispuesto: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:39 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_debe: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_dispon_lim: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_dispu_lim: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_disp_dispon: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sdebe_shaber: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svencido_stotal: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sact_snet: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_snet_ventas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spas_ventas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svivo_sact: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svivo_spas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en flag_diasatraso: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_inven_sact: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ven_sact: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ven_spas: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en peorcalificacion_cat: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_activo_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_pasivo_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_neto_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en patrimonio_neto_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en utilidad_neta_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_ventas_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_salnet_ven_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_sact_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_limite_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sal_tpas_limi_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_tsal_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_haber_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en spasivohabe_prom_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_prompas_sact_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spas_sact_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spasivo_sneto_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldispopera_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en limite_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_dispuesto_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | INFO | agrupacion_auto | Progreso numéricas: 200/422 procesadas
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en total_saldo_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_dispon_lim_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_dispu_lim_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_disp_disponi_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sdebe_shaber_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sven_stot_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sact_snet_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_snet_ventas_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spas_ventas_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svivo_sact_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svivo_spas_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_debe_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vivo_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vencido_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_inven_sact_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ven_sact_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ven_spas_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_solvencia_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_liquidez_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasivo_activo_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pas_patrinet_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rent_patrimonio_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rent_activos_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ebit_activos_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_operativo_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en roa_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en productividad_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_neto_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_bruto_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_ebit_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en roa2_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rot_cap_trabajo_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rot_act_tot_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rot_activos_fijos_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en cob_int_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en cob_int_fin_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en cobertura_deuda_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en cob_deuda_tot_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en captrab_ventas_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en gasto_fin_ventas_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en ut_bruta_pasivolp_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_actcir_ncirc_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en tasa_impuestos_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pasivolp_ebit_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pastot_ebit_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pastot_utnet_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en antiguedad_pasivo_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en antiguedad_activo_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en siniincicap_v_6m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_activo_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | INFO | agrupacion_auto | Progreso numéricas: 250/422 procesadas
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_pasivo_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_neto_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en patrimonio_neto_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en utilidad_neta_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_ventas_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_salnet_ven_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_tact_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_lim_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_lim_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_tsal_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_haber_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en spasivohabe_prom_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_prompas_sact_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spas_sact_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spas_snet_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldispopera_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en limite_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_dispuesto_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en total_saldo_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_dispon_lim_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_dispu_lim_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_disp_dispon_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sdebe_shaber_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sven_stot_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sact_snet_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_snet_ventas_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spas_ventas_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svivo_sact_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svivo_spas_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_debe_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vivo_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vencido_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_inven_sact_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ven_sact_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ven_spas_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_solvencia_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_liquidez_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pas_act_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pas_patrinet_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rent_patrimonio_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rent_activos_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ebit_activos_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_operativo_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en roa_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en productividad_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_neto_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_bruto_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en margen_ebit_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en roa2_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rot_cap_trabajo_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | INFO | agrupacion_auto | Progreso numéricas: 300/422 procesadas
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rot_act_tot_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en rot_act_fijo_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en cob_int_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:40 | WARNING | agrupacion_auto | [NUM] Falló binning en cob_int_fin_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en cobertura_deuda_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en cob_deuda_tot_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en captrab_ventas_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en gasto_fin_ventas_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en ut_bruta_paslp_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_actcir_ncirc_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en tasa_impuestos_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_paslp_ebit_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pastot_ebit_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_pastot_utnet_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en antig_pasivo_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en antig_activo_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en siniincicap_v_12m: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_activo_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_activo_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_pasivo_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_pasivo_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_neto_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_neto_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en patrimonio_neto_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en pat_neto_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en utilidad_neta_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en utilidad_neta_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_ventas_6md: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_ventas_12md: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_salnet_ven_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_salnet_ven_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_sact_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_sact_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_lim_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_lim_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_limi_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_tpas_lim_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_tsal_6md: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ventas_tsal_12md: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_haber_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_haber_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en spashaber_prom_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en spashaber_prom_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_prpas_sact_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_prpas_sact_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spas_sact_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spas_sact_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spas_snet_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_spas_snet_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldispopera_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | INFO | agrupacion_auto | Progreso numéricas: 350/422 procesadas
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldispopera_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en limite_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en limite_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_dispuesto_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en sdispuesto_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en total_saldo_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en total_saldo_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_dispon_lim_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_dispon_lim_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_dispu_lim_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_dispu_lim_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_disp_dispon_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_disp_dispo_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sdeb_shab_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sdeb_shab_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sven_stot_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sven_stot_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sact_snet_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_sact_snet_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svivo_sact_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svivo_sact_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svivo_spas_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_svivo_spas_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_debe_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_debe_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vivo_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vivo_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vencido_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vencido_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_inven_sact_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_inven_sact_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_inven_spas_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_inven_spas_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ven_sact_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ven_sact_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ven_spas_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en rat_ven_spas_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en siniincicap_v_6med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en siniincicap_v_12med: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_activo_6max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_activo_12max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_pasivo_6max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_pasivo_12max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_neto_6max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_neto_12max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en patrimonio_neto_6max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en pat_neto_12max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en utilidad_neta_6max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en utilidad_neta_12max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vivo_6max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | INFO | agrupacion_auto | Progreso numéricas: 400/422 procesadas
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vivo_12max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en total_saldo_6max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en total_saldo_12max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en siniincicap_v_6max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en siniincicap_v_12max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vencido_6max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_vencido_12max: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_neto_6var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_neto_12var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en patrimonio_neto_6var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en pat_neto_12var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en utilidad_neta_6var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en utilidad_neta_12var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldispopera_6var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldispopera_12var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en limite_6var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en limite_12var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en saldo_dispuesto_6var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en sdispuesto_12var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en total_saldo_6var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en total_saldo_12var: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | WARNING | agrupacion_auto | [NUM] Falló binning en cod_cliente_anom: positive() got an unexpected keyword argument 'lower'
+2025-11-03 19:58:41 | INFO | agrupacion_auto | Progreso numéricas: 422/422 procesadas
+2025-11-03 20:03:27 | INFO | agrupacion_auto | Iniciando binning numérico: 422 variables…
+2025-11-03 20:03:27 | WARNING | agrupacion_auto | [NUM] Falló binning en 0: '0'
+2025-11-03 20:03:28 | INFO | agrupacion_auto | Progreso numéricas: 50/422 procesadas
+2025-11-03 20:03:29 | INFO | agrupacion_auto | Progreso numéricas: 100/422 procesadas
+2025-11-03 20:03:30 | INFO | agrupacion_auto | Progreso numéricas: 150/422 procesadas
+2025-11-03 20:03:31 | INFO | agrupacion_auto | Progreso numéricas: 200/422 procesadas
+2025-11-03 20:03:32 | INFO | agrupacion_auto | Progreso numéricas: 250/422 procesadas
+2025-11-03 20:03:33 | INFO | agrupacion_auto | Progreso numéricas: 300/422 procesadas
+2025-11-03 20:03:35 | INFO | agrupacion_auto | Progreso numéricas: 350/422 procesadas
+2025-11-03 20:03:36 | INFO | agrupacion_auto | Progreso numéricas: 400/422 procesadas
+2025-11-03 20:03:36 | INFO | agrupacion_auto | Progreso numéricas: 422/422 procesadas
+2025-11-03 20:03:36 | INFO | agrupacion_auto | Ranking IV (numéricas) guardado en C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv\iv_ranking_num.csv | vars=421
+2025-11-03 20:09:37 | INFO | agrupacion_auto | Iniciando binning numérico: 422 variables…
+2025-11-03 20:09:37 | WARNING | agrupacion_auto | [NUM] Falló binning en 0: '0'
+2025-11-03 20:09:37 | INFO | agrupacion_auto | Progreso numéricas: 50/422 procesadas
+2025-11-03 20:09:38 | INFO | agrupacion_auto | Progreso numéricas: 100/422 procesadas
+2025-11-03 20:09:40 | INFO | agrupacion_auto | Progreso numéricas: 150/422 procesadas
+2025-11-03 20:09:41 | INFO | agrupacion_auto | Progreso numéricas: 200/422 procesadas
+2025-11-03 20:09:42 | INFO | agrupacion_auto | Progreso numéricas: 250/422 procesadas
+2025-11-03 20:09:43 | INFO | agrupacion_auto | Progreso numéricas: 300/422 procesadas
+2025-11-03 20:09:45 | INFO | agrupacion_auto | Progreso numéricas: 350/422 procesadas
+2025-11-03 20:09:46 | INFO | agrupacion_auto | Progreso numéricas: 400/422 procesadas
+2025-11-03 20:09:46 | INFO | agrupacion_auto | Progreso numéricas: 422/422 procesadas
+2025-11-03 20:09:46 | INFO | agrupacion_auto | Ranking IV (numéricas) guardado en C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv\iv_ranking_num.csv | vars=421
+2025-11-03 20:10:27 | INFO | agrupacion_auto | Iniciando agrupación categórica: 2 variables…
+2025-11-03 20:10:27 | WARNING | agrupacion_auto | [CAT] Falló agrupación en 0: '0'
+2025-11-03 20:10:27 | INFO | agrupacion_auto | Ranking IV (num+cat) guardado en C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv\iv_ranking_all.csv | vars=422
+2025-11-03 20:14:11 | INFO | agrupacion_auto | ExportGroup guardado: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references\exportgroup_20251103.csv | filas=919 | variables=422
+2025-11-03 20:14:11 | INFO | agrupacion_auto | Guardados detalle por variable: num=421 | cat=1
+2025-11-03 20:20:23 | INFO | agrupacion_auto | Iniciando binning numérico: 422 variables…
+2025-11-03 20:20:23 | WARNING | agrupacion_auto | [NUM] Falló binning en 0: '0'
+2025-11-03 20:20:23 | INFO | agrupacion_auto | Progreso numéricas: 50/422 procesadas
+2025-11-03 20:20:24 | INFO | agrupacion_auto | Progreso numéricas: 100/422 procesadas
+2025-11-03 20:20:26 | INFO | agrupacion_auto | Progreso numéricas: 150/422 procesadas
+2025-11-03 20:20:27 | INFO | agrupacion_auto | Progreso numéricas: 200/422 procesadas
+2025-11-03 20:20:28 | INFO | agrupacion_auto | Progreso numéricas: 250/422 procesadas
+2025-11-03 20:20:29 | INFO | agrupacion_auto | Progreso numéricas: 300/422 procesadas
+2025-11-03 20:20:31 | INFO | agrupacion_auto | Progreso numéricas: 350/422 procesadas
+2025-11-03 20:20:32 | INFO | agrupacion_auto | Progreso numéricas: 400/422 procesadas
+2025-11-03 20:20:33 | INFO | agrupacion_auto | Progreso numéricas: 422/422 procesadas
+2025-11-03 20:20:33 | INFO | agrupacion_auto | Ranking IV (numéricas) guardado en C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv\iv_ranking_num.csv | vars=421
+2025-11-03 20:22:02 | INFO | agrupacion_auto | Iniciando binning numérico: 422 variables… (min_bin_pct=2.00%)
+2025-11-03 20:22:02 | WARNING | agrupacion_auto | [NUM] Falló binning en 0: '0'
+2025-11-03 20:22:03 | INFO | agrupacion_auto | Progreso numéricas: 50/422 procesadas
+2025-11-03 20:22:04 | INFO | agrupacion_auto | Progreso numéricas: 100/422 procesadas
+2025-11-03 20:22:05 | INFO | agrupacion_auto | Progreso numéricas: 150/422 procesadas
+2025-11-03 20:22:07 | INFO | agrupacion_auto | Progreso numéricas: 200/422 procesadas
+2025-11-03 20:22:08 | INFO | agrupacion_auto | Progreso numéricas: 250/422 procesadas
+2025-11-03 20:22:10 | INFO | agrupacion_auto | Progreso numéricas: 300/422 procesadas
+2025-11-03 20:22:11 | INFO | agrupacion_auto | Progreso numéricas: 350/422 procesadas
+2025-11-03 20:22:13 | INFO | agrupacion_auto | Progreso numéricas: 400/422 procesadas
+2025-11-03 20:22:13 | INFO | agrupacion_auto | Progreso numéricas: 422/422 procesadas
+2025-11-03 20:22:13 | INFO | agrupacion_auto | Ranking IV (numéricas) guardado en C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv\iv_ranking_num.csv | vars=421
+2025-11-03 20:22:19 | INFO | agrupacion_auto | Iniciando agrupación categórica: 2 variables… (min_pct=2.00%)
+2025-11-03 20:22:19 | WARNING | agrupacion_auto | [CAT] Falló agrupación en 0: '0'
+2025-11-03 20:22:19 | INFO | agrupacion_auto | Ranking IV (num+cat) guardado en C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv\iv_ranking_all.csv | vars=422
+2025-11-03 20:22:43 | INFO | agrupacion_auto | ExportGroup guardado: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references\exportgroup_20251103.csv | filas=860 | variables=376
+2025-11-03 20:22:43 | INFO | agrupacion_auto | Detalle por variable guardado: num=375 | cat=1
+2025-11-03 20:22:43 | INFO | agrupacion_auto | Resumen QC: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references\exportgroup_summary_20251103.csv | Excluidas (ALL-only): 46 -> C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references\exportgroup_excluidas_20251103.csv
+2025-11-03 20:32:50 | INFO | agrupacion_auto | Iniciando binning numérico: 422 variables… (min_bin_pct=2.00%)
+2025-11-03 20:32:50 | WARNING | agrupacion_auto | [NUM] Falló binning en 0: '0'
+2025-11-03 20:32:51 | INFO | agrupacion_auto | Progreso numéricas: 50/422 procesadas
+2025-11-03 20:32:52 | INFO | agrupacion_auto | Progreso numéricas: 100/422 procesadas
+2025-11-03 20:32:53 | INFO | agrupacion_auto | Progreso numéricas: 150/422 procesadas
+2025-11-03 20:32:55 | INFO | agrupacion_auto | Progreso numéricas: 200/422 procesadas
+2025-11-03 20:32:56 | INFO | agrupacion_auto | Progreso numéricas: 250/422 procesadas
+2025-11-03 20:32:58 | INFO | agrupacion_auto | Progreso numéricas: 300/422 procesadas
+2025-11-03 20:32:59 | INFO | agrupacion_auto | Progreso numéricas: 350/422 procesadas
+2025-11-03 20:33:01 | INFO | agrupacion_auto | Progreso numéricas: 400/422 procesadas
+2025-11-03 20:33:01 | INFO | agrupacion_auto | Progreso numéricas: 422/422 procesadas
+2025-11-03 20:33:01 | INFO | agrupacion_auto | Ranking IV (numéricas) guardado en C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv\iv_ranking_num.csv | vars=421
+2025-11-03 20:33:23 | INFO | agrupacion_auto | Iniciando binning numérico: 422 variables… (min_bin_pct=2.00%)
+2025-11-03 20:33:23 | WARNING | agrupacion_auto | [NUM] Falló binning en 0: '0'
+2025-11-03 20:33:24 | INFO | agrupacion_auto | Progreso numéricas: 50/422 procesadas
+2025-11-03 20:33:25 | INFO | agrupacion_auto | Progreso numéricas: 100/422 procesadas
+2025-11-03 20:33:27 | INFO | agrupacion_auto | Progreso numéricas: 150/422 procesadas
+2025-11-03 20:33:28 | INFO | agrupacion_auto | Progreso numéricas: 200/422 procesadas
+2025-11-03 20:33:30 | INFO | agrupacion_auto | Progreso numéricas: 250/422 procesadas
+2025-11-03 20:33:31 | INFO | agrupacion_auto | Progreso numéricas: 300/422 procesadas
+2025-11-03 20:33:33 | INFO | agrupacion_auto | Progreso numéricas: 350/422 procesadas
+2025-11-03 20:33:34 | INFO | agrupacion_auto | Progreso numéricas: 400/422 procesadas
+2025-11-03 20:33:35 | INFO | agrupacion_auto | Progreso numéricas: 422/422 procesadas
+2025-11-03 20:33:35 | INFO | agrupacion_auto | Ranking IV (numéricas) guardado en C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv\iv_ranking_num.csv | vars=421
+2025-11-03 20:43:33 | INFO | agrupacion_auto | Iniciando binning numérico: 422 variables… (min_bin_pct=2.00%)
+2025-11-03 20:43:33 | WARNING | agrupacion_auto | [NUM] Falló binning en 0: '0'
+2025-11-03 20:43:33 | INFO | agrupacion_auto | Progreso numéricas: 50/422 procesadas
+2025-11-03 20:43:34 | INFO | agrupacion_auto | Progreso numéricas: 100/422 procesadas
+2025-11-03 20:43:36 | INFO | agrupacion_auto | Progreso numéricas: 150/422 procesadas
+2025-11-03 20:43:38 | INFO | agrupacion_auto | Progreso numéricas: 200/422 procesadas
+2025-11-03 20:43:39 | INFO | agrupacion_auto | Progreso numéricas: 250/422 procesadas
+2025-11-03 20:43:41 | INFO | agrupacion_auto | Progreso numéricas: 300/422 procesadas
+2025-11-03 20:43:42 | INFO | agrupacion_auto | Progreso numéricas: 350/422 procesadas
+2025-11-03 20:43:44 | INFO | agrupacion_auto | Progreso numéricas: 400/422 procesadas
+2025-11-03 20:43:44 | INFO | agrupacion_auto | Progreso numéricas: 422/422 procesadas
+2025-11-03 20:43:44 | INFO | agrupacion_auto | Ranking IV (numéricas) guardado en C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\reports\iv\iv_ranking_num.csv | vars=421
+2025-11-03 20:44:14 | INFO | agrupacion_auto | Catálogo de cortes guardado: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references\numeric_bins_catalog_20251103.csv | filas=2685
+2025-11-03 20:44:14 | INFO | agrupacion_auto | ExportGroup guardado: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references\exportgroup_20251103.csv | filas=860 | variables=376
+2025-11-03 20:44:14 | INFO | agrupacion_auto | Detalle por variable guardado: num=375 | cat=1
+2025-11-03 20:44:14 | INFO | agrupacion_auto | Resumen QC: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references\exportgroup_summary_20251103.csv | Excluidas (ALL-only): 46 -> C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\references\exportgroup_excluidas_20251103.csv

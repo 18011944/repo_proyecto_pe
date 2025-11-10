@@ -1,0 +1,48 @@
+2025-11-03 18:15:07 | INFO | creacion_abt | === Inicio Notebook 00: Creación ABT Agrupados ===
+2025-11-03 18:15:07 | INFO | creacion_abt | BASE_DIR: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe
+2025-11-03 19:11:09 | INFO | creacion_abt | === Inicio Notebook 00: Creación ABT Agrupados ===
+2025-11-03 19:11:09 | INFO | creacion_abt | BASE_DIR: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe
+2025-11-03 19:11:09 | INFO | creacion_abt | RAW CSV path: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\data\raw\abt_PE2020.csv
+2025-11-03 19:11:09 | INFO | creacion_abt | Carga CSV OK | shape=(17524, 493) | tiempo=0.57s
+2025-11-03 19:11:47 | INFO | creacion_abt | Total columnas tras normalizar: 493
+2025-11-03 19:12:19 | INFO | creacion_abt | Cols 'fecha': 20 | parseadas: 20 | fallidas: 0
+2025-11-03 19:14:26 | INFO | creacion_abt | Cols 'fecha': 20 | OK: 20 | con formato fijo: 0 | fallback genérico: 0
+2025-11-03 19:15:09 | INFO | creacion_abt | Metadata: metadata_abt_PE2020.json | Profile: profile_abt_PE2020.csv | targets=['default_12m', 'default', 'flag_sitcont_default']
+2025-11-03 19:15:36 | INFO | creacion_abt | TARGET=default_12m | Filas removidas por NA target: 0 | filas finales: 17524
+2025-11-03 19:15:36 | INFO | creacion_abt | Distribución target:
+default_12m
+0    16600
+1      924
+2025-11-03 19:15:36 | INFO | creacion_abt | Ratio positivos: 0.052728
+2025-11-03 19:16:03 | INFO | creacion_abt | Fecha ref: fecha_evento | rango: 2014-02-28 00:00:00 → 2017-12-31 00:00:00
+2025-11-03 19:16:27 | INFO | creacion_abt | Drop por NA>95%: 44 | por constantes: 43 | total drop: 55
+2025-11-03 19:16:27 | INFO | creacion_abt | Shape tras limpieza: (17524, 438)
+2025-11-03 19:16:48 | INFO | creacion_abt | Numéricas: 421 | Categóricas: 1 | Cat. alta cardinalidad: 2
+2025-11-03 19:18:06 | INFO | creacion_abt | === Inicio Notebook 00: Creación ABT Agrupados ===
+2025-11-03 19:18:06 | INFO | creacion_abt | === Inicio Notebook 00: Creación ABT Agrupados ===
+2025-11-03 19:18:06 | INFO | creacion_abt | BASE_DIR: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe
+2025-11-03 19:18:06 | INFO | creacion_abt | BASE_DIR: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe
+2025-11-03 19:18:06 | INFO | creacion_abt | RAW CSV path: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\data\raw\abt_PE2020.csv
+2025-11-03 19:18:06 | INFO | creacion_abt | RAW CSV path: C:\Users\PC RYU\Documents\Galileo\Maestria\Product Development\repo_proyecto_pe\data\raw\abt_PE2020.csv
+2025-11-03 19:18:07 | INFO | creacion_abt | Carga CSV OK | shape=(17524, 493) | tiempo=0.50s
+2025-11-03 19:18:07 | INFO | creacion_abt | Carga CSV OK | shape=(17524, 493) | tiempo=0.50s
+2025-11-03 19:18:13 | INFO | creacion_abt | Numéricas: 421 | Categóricas: 1 | Alta cardinalidad: 2
+2025-11-03 19:18:13 | INFO | creacion_abt | Numéricas: 421 | Categóricas: 1 | Alta cardinalidad: 2
+2025-11-03 19:19:30 | INFO | creacion_abt | Guardado: abt_PE2020_clean.csv, abt_PE2020_clean_min.csv, abt_PE2020_sample.csv
+2025-11-03 19:19:30 | INFO | creacion_abt | Guardado: abt_PE2020_clean.csv, abt_PE2020_clean_min.csv, abt_PE2020_sample.csv
+2025-11-03 19:30:15 | INFO | creacion_abt | Columnas retenidas tras limpieza mínima: 438
+2025-11-03 19:30:15 | INFO | creacion_abt | Columnas retenidas tras limpieza mínima: 438
+2025-11-03 19:31:10 | INFO | creacion_abt | Resumen temporal fecha_evento:
+count          17524
+unique            24
+top       2017-10-31
+freq             810
+Name: fecha_evento, dtype: object
+2025-11-03 19:31:10 | INFO | creacion_abt | Resumen temporal fecha_evento:
+count          17524
+unique            24
+top       2017-10-31
+freq             810
+Name: fecha_evento, dtype: object
+2025-11-03 19:31:10 | INFO | creacion_abt | Sugerencia de split temporal 80/20 en: 2017-04-30
+2025-11-03 19:31:10 | INFO | creacion_abt | Sugerencia de split temporal 80/20 en: 2017-04-30

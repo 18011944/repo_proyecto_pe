@@ -1,0 +1,53 @@
+{
+  "rows": 17524,
+  "cols": 493,
+  "candidate_targets": [
+    "default_12m",
+    "default",
+    "flag_sitcont_default"
+  ],
+  "fecha_columns": [
+    "fecha_evento",
+    "fecha_inicio_d",
+    "fecha_aper_con_res",
+    "fecha_aprobacion",
+    "fecha_canc_real",
+    "fecha_desembolso",
+    "fecha_fin_carencia",
+    "fecha_fin_inc_v",
+    "fecha_fin_inc_e",
+    "fecha_fin_msub_cli",
+    "fecha_fin_msub_con",
+    "fecha_in_carencia",
+    "fecha_in_inci_v",
+    "fecha_in_inci_e",
+    "fecha_in_msub_cli",
+    "fecha_in_msub_con",
+    "fecha_saldo_pas_cli",
+    "flag_fechafinentidad",
+    "flag_fechapasivo",
+    "flag_fecha_inicio_d"
+  ],
+  "na_top20": {
+    "saldo_tactivo_6var": 1.0,
+    "saldo_tactivo": 1.0,
+    "siniincicap_d_6max": 1.0,
+    "siniincicap_d_12max": 1.0,
+    "raz_apalanc_6m": 1.0,
+    "razon_circulante_6m": 1.0,
+    "raz_patnet_pas_12m": 1.0,
+    "siniincicap_d_12m": 1.0,
+    "siniincicap_d_6med": 1.0,
+    "siniincicap_d_12med": 1.0,
+    "saldo_tactivo_12var": 1.0,
+    "saldo_tactivo_12m": 1.0,
+    "saldo_tactivo_6m": 1.0,
+    "saldo_tpasivo_12m": 1.0,
+    "saldo_tpasivo_12var": 1.0,
+    "saldo_tpasivo_6m": 1.0,
+    "saldo_tpasivo": 1.0,
+    "saldo_tpasivo_6var": 1.0,
+    "fecha_in_msub_cli": 1.0,
+    "raz_patnet_pasivo": 1.0
+  }
+}
